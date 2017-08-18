@@ -173,10 +173,25 @@ p{
  height: 30rem;
  border: 10px solid #eaeaea;
  border-radius:50%;
- margin:50px auto;
+ margin: 200px auto;
+ margin-right: 90px;
  position: relative;
  padding:2rem;
+ float: left;
 }
+
+.clock2 {
+ width: 30rem;
+ height: 30rem;
+ border: 10px solid #eaeaea;
+ border-radius:50%;
+ margin: 200px auto;
+ margin-left: 30px;
+ position: relative;
+ padding:2rem;
+ clear: left;
+}
+
 .clock-face {
  position: relative;
  width: 100%;
