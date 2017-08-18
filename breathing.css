@@ -1,0 +1,55 @@
+@import "compass/css3";
+
+body {
+  background-color:#e3dede;
+}
+
+.circle1 {
+  z-index: 1;
+  background-color: #99AAC3;
+  border: 50px solid #99AAC3;
+  height: 350px;
+  width: 300px;
+  border-radius: 100%;
+  margin-left: 35%;
+  margin-top: 50px;
+  position: relative;
+
+}
+
+.circle2 {
+  background-color: #99BFC3;
+  border: 0px solid;
+  height: 185px;
+  width: 170px;
+  border-radius: 100%;
+  margin-left: 21.5%;
+  margin-top: 80px;
+  position: relative;
+  -webkit-animation:grow 6s infinite;
+
+  span {
+  display: block;
+  font-size:240px;
+  color: #fff;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  padding-top: 24%;
+}
+}
+
+
+@-webkit-keyframes grow {
+ 0% {
+-webkit-transform: scale( 0 );-moz-transform: scale( 0 );-o-transform: scale( 0 );-ms-transform: scale( 0 );transform: scale( 0 );
+  }
+
+  50% {
+  -webkit-transform: scale( 2 );-moz-transform: scale( 2 );-o-transform: scale( 2 );-ms-transform: scale( 2 );transform: scale( 2 );
+  }
+
+  100% {
+  -webkit-transform: scale( 0.8 );-moz-transform: scale( 0.8 );-o-transform: scale( 0.8 );-ms-transform: scale( 0.8 );transform: scale( 0 );
+  }
+}
